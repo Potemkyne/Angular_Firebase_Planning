@@ -1,3 +1,45 @@
+<h2> Interaction Angular 4 / Firebase </h2>
+<h3> Planning quotidien pour projectionnistes </h3>
+<img src="https://user-images.githubusercontent.com/14042789/29244581-ba49460a-7fbb-11e7-9cc5-5908488e7f59.jpg" />
+<h4> Attribution d'une séance (projectionniste / horaire / film / salle) /  Modification / Suppression d'une ou de toutes les séances</h4>
+<img src="https://user-images.githubusercontent.com/14042789/29244582-bdae5998-7fbb-11e7-92a4-d192b88d237c.jpg" />
+<h4>Stockage Firebase via AngularFire2</h4>
+<img src="https://user-images.githubusercontent.com/14042789/29244583-c0418c5c-7fbb-11e7-839a-737238d776ba.jpg" />
+
+<h5>Angular4:</h5>
+<p>npm install -g @angular/cli</p>
+<p>ng new project</p>
+
+<h5>AngulareFire2:</h5>
+<p>npm install angularfire2 firebase –save</p>
+
+<h5>Firebase:</h5>
+<p>Modification des règles sur la console:</p>
+<pre><code>{
+  "rules": { 
+    ".read": "auth != true",
+    ".write": "auth != true"
+  }
+}</code></pre>
+<p>Génération des données d'initialisation</p>
+<pre><code> var config =  {
+    apiKey: "XXXXXXX",
+    authDomain: "XXXXX.firebaseapp.com",
+    databaseURL: "https://XXXXXXX.firebaseio.com",
+    projectId: "XXXXXX",
+    storageBucket: "XXXXXX.appspot.com",
+    messagingSenderId: "XXXX"
+  }
+</pre></code>
+<h5>Bootstrap:</h5>
+<p>npm install --save bootstrap</p>
+<p>Dans angular-cli.json:</p>
+<pre><code>"styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "styles.css"
+      ],</code></pre>
+
+
 # Angdyn
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.0.
