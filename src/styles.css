@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    padding-top: 70px;
+   }
+* {
+  font-family: 'Raleway';
+}
+
+div{
+  padding-bottom: 20px;
+}
