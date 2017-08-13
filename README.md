@@ -1,6 +1,8 @@
 <h2> Interaction Angular 4 / Firebase </h2>
 <h3> Planning quotidien pour projectionnistes </h3>
-<img src="https://user-images.githubusercontent.com/14042789/29244581-ba49460a-7fbb-11e7-9cc5-5908488e7f59.jpg" />
+<img src="https://user-images.githubusercontent.com/14042789/29250005-ffac0168-803a-11e7-9b91-018a67f37152.jpg" />
+<h4> Authentification Github, Gmail ou Anonyme</h4>
+<img src="https://user-images.githubusercontent.com/14042789/29250089-6220ea42-803c-11e7-833e-cb9d092047ad.jpg" />
 <h4> Attribution d'une séance (projectionniste / horaire / film / salle) /  Modification / Suppression d'une ou de toutes les séances</h4>
 <img src="https://user-images.githubusercontent.com/14042789/29244582-bdae5998-7fbb-11e7-92a4-d192b88d237c.jpg" />
 <h4>Stockage Firebase via AngularFire2</h4>
@@ -31,6 +33,8 @@
     messagingSenderId: "XXXX"
   }
 </pre></code>
+<p>Activation des fournisseurs de connexion: Github, Google, Anonyme<p>
+<img src="https://user-images.githubusercontent.com/14042789/29250101-cde98a4a-803c-11e7-90ad-f9256b49b427.png" />
 <h5>Bootstrap:</h5>
 <p>npm install --save bootstrap</p>
 <p>Dans angular-cli.json:</p>
