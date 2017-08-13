@@ -1,45 +1,4 @@
-<div class="row">
-<div class="form-group">
-  <div class="col-xs-2">
-    <select type="text" #newprojectionnist placeholder="Projectionniste" class="form-control">
-      <option>thomas</option>
-      <option>gaëtan</option>
-      <option>jonhatan</option>
-      <option>marc</option>
-      <option>antoine</option>
-    </select>
-  </div>
-
-  <div class="col-xs-2">
-  <input type="text" #newtitle placeholder="Film" class="form-control" />
-     </div>
-       <div class="col-xs-2">
-         <select type="text" #newdate placeholder="Horaire" class="form-control" >
-           <option>19:45</option>
-           <option>20:00</option>
-           <option>20:30</option>
-         </select>
-     </div>
-
-  <div class="col-xs-2">
-    <select type="text" #newplace placeholder="Salle" class="form-control">
-      <option>salle 1</option>
-    <option>salle 2</option>
-    <option>salle 3</option>
-      </select>
-  </div>
-
-
-     <div class="col-xs-2">
-  <button (click)="addMovie(newtitle.value, newdate.value, newplace.value, newprojectionnist.value)" class="btn btn-primary btn-block">Add</button>
-     </div>
-
-
-       <div class="col-xs-2">
-  <button (click)="deleteEverything()"  class="btn btn-danger btn-block">Delete</button>
-       </div>
-</div>
-  </div>
+<div class="row"> <div class="col-xs-12"> <button class="btn btn-google"  (click)="loginGoogle()"> Google </button> <button class="btn btn-github"  (click)="loginGithub()"> Github </button> <button class="btn btn-anonymous"  (click)="loginAnonymous()"> Login Anonymously </button> <button class="btn"  (click)="logout()">Logout</button> <div class="row">{{ (user | async)?.uid }} </div> </div> </div> <div class="row"> <div class="form-group"> <div class="col-xs-2"> <select type="text" #newprojectionnist placeholder="Projectionniste" class="form-control"> <option>thomas</option> <option>gaëtan</option> <option>jonhatan</option> <option>marc</option> <option>antoine</option> </select> </div> <div class="col-xs-2"> <input type="text" #newtitle placeholder="Film" class="form-control" /> </div> <div class="col-xs-2"> <select type="text" #newdate placeholder="Horaire" class="form-control" > <option>19:45</option> <option>20:00</option> <option>20:30</option> </select> </div> <div class="col-xs-2"> <select type="text" #newplace placeholder="Salle" class="form-control"> <option>salle 1</option> <option>salle 2</option> <option>salle 3</option> </select> </div> <div class="col-xs-2"> <button (click)="addMovie(newtitle.value, newdate.value, newplace.value, newprojectionnist.value)" class="btn btn-primary btn-block">Add</button> </div> <div class="col-xs-2"> <button (click)="deleteEverything()"  class="btn btn-danger btn-block">Delete</button> </div> </div> </div>
 
 
     <div class="row">

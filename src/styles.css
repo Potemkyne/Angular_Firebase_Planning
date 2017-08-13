@@ -8,3 +8,21 @@ body {
 div{
   padding-bottom: 20px;
 }
+
+.btn-google{
+  color: #fff;
+  background-color: #c71610;
+  border-color: #af130e;
+}
+
+.btn-github{
+  color: #fff;
+  background-color: #1f1f1f;
+  border-color: #121212;
+}
+
+.btn-anonymous{
+  color: #fff;
+  background-color: #778899;
+  border-color: #6a7b8d;
+}
